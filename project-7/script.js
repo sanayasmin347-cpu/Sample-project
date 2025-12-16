@@ -1,8 +1,6 @@
 var body = document.querySelector('body')
 var btn = document.querySelector('.btn')
 
-var arr = []
-
 btn.addEventListener('click', function(){
     var x = Math.floor(Math.random()*90)
     var y = Math.random()*90
